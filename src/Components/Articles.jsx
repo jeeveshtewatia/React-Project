@@ -2,9 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Articles = (props) => {
-  // const travel = "Travel";
-  // const Date = "07 Aug 2020";
-
   return (
     <NavLink
       state={{
@@ -20,12 +17,7 @@ const Articles = (props) => {
     >
       <div className="artflex" key={props.index}>
         <div>
-          <img
-            src={props.img}
-            alt="Some information"
-            // height="150px"
-            // width="150px"
-          />
+          <img src={props.img} alt="Some information" />
         </div>
         <div>
           <h3 className="animate__animated animate__bounce">{props.title}</h3>

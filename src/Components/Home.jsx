@@ -1,7 +1,6 @@
 import React from "react";
 import Articles from "./Articles";
 import Latest from "./Latest";
-import Story from "./Story";
 import Title from "./Title";
 import Data from "./Data";
 import Sidebar from "./Sidebar";
