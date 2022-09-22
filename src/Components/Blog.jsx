@@ -17,8 +17,8 @@ export default function Blog() {
         <img
           src={location.state.img}
           alt=""
-          width="800px"
-          height="500px"
+          width="60%"
+          height="100%"
           className="animate__flipInX animate__fadeInDown animate__animated "
         />
         <p>{location.state.description} </p>

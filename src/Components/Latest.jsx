@@ -16,7 +16,7 @@ const Latest = (props) => {
         // to={`/category/${props.category}/${props.index}`}
         to="/Blog"
       >
-        <img alt="" src={props.img} width={"100%"} height={"60%"} />
+        <img alt="" src={props.img} width={"100%"} height={"50%"} />
         <h3>{props.title}</h3>
         <p> {props.pera}</p>
         {props.category && <h5>{`${props.category} / ${props.date}`}</h5>}
