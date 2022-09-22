@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h3 {
+    color: blueviolet;
+}
+
 img {
     border-radius: 10px;
 }

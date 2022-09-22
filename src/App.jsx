@@ -21,16 +21,17 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/category/Bollywood" element={<Bollywood />} />
-          <Route path="/Hollywood" element={<Hollywood />} />
-          <Route path="/Technology" element={<Technology />} />
-          <Route path="/Fitness" element={<Fitness />} />
-          <Route path="/Food" element={<Food />} />
+          <Route path="/category/Hollywood" element={<Hollywood />} />
+          <Route path="/category/Technology" element={<Technology />} />
+          <Route path="/category/Fitness" element={<Fitness />} />
+          <Route path="/category/Food" element={<Food />} />
           {location.state !== null && (
-            <Route path="/Blog" element={<Blog />} />
-            // <Route
-            //   path={`/catagory/${location.state.category}/${location.state.index}`}
-            //   element={<Blog />}
-            // />
+            // <Route path="/Blog" element={<Blog />} />
+            <Route
+              // path={`/catagory/:${location.state.category}/:${location.state.index}`}
+              path={`/category/${location.state.category}/${location.state.index}`}
+              element={<Blog />}
+            />
           )}
         </Routes>
       </div>

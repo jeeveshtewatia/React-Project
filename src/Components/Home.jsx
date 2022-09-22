@@ -41,6 +41,7 @@ const Home = () => {
         {Data.filter((data) => data.category === "Latest").map((data) => (
           <Latest
             key={data.id}
+            index={data.id}
             title={data.title}
             img={data.img}
             pera={data.Description}
@@ -55,6 +56,7 @@ const Home = () => {
           {Data.filter((data) => data.category === "Bollywood").map((data) => (
             <Articles
               key={data.id}
+              index={data.id}
               title={data.title}
               img={data.img}
               pera={data.Description}
@@ -74,6 +76,7 @@ const Home = () => {
           <div>
             <Latest
               key={Data[0].id}
+              index={Data[0].id}
               title={Data[0].title}
               img={Data[0].img}
               category={Data[0].category}
@@ -81,6 +84,7 @@ const Home = () => {
             />{" "}
             <Sidebar
               key={Data[0].id}
+              index={Data[0].id}
               title={Data[0].title}
               img={Data[0].img}
               category={Data[0].category}
@@ -94,12 +98,14 @@ const Home = () => {
             <Sidebar
               key={Data[7].id}
               title={Data[7].title}
+              index={Data[7].id}
               img={Data[7].img}
               category={Data[7].category}
               date={Data[7].Date}
             />{" "}
             <Sidebar
               key={Data[14].id}
+              index={Data[14].id}
               title={Data[14].title}
               img={Data[14].img}
               category={Data[14].category}
@@ -107,6 +113,7 @@ const Home = () => {
             />{" "}
             <Sidebar
               key={Data[20].id}
+              index={Data[20].id}
               title={Data[20].title}
               img={Data[20].img}
               category={Data[20].category}
@@ -122,10 +129,11 @@ const Home = () => {
         {Data.filter((data) => data.category === "Story").map((data) => (
           <Latest
             key={data.id}
+            index={data.id}
             title={data.title}
             img={data.img}
             pera={data.Description}
-            // category={data.category}
+            category={data.category}
             // date={data.Date}
           />
         ))}

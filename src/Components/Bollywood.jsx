@@ -29,6 +29,7 @@ const Bollywood = () => {
               (data) => (
                 <Sidebar
                   key={data.id}
+                  index={data.id}
                   title={data.title}
                   img={data.img}
                   // pera={data.Description}

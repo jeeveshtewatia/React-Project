@@ -29,6 +29,7 @@ const Hollywood = () => {
               (data) => (
                 <Sidebar
                   key={data.id}
+                  index={data.id}
                   title={data.title}
                   img={data.img}
                   // pera={data.Description.slice(0, 20)}

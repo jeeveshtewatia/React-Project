@@ -30,6 +30,7 @@ const Technology = () => {
               (data) => (
                 <Sidebar
                   key={data.id}
+                  index={data.id}
                   title={data.title}
                   img={data.img}
                   category={data.category}

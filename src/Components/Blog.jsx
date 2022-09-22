@@ -29,6 +29,7 @@ export default function Blog() {
         {Data.filter((data) => data.category === "Latest").map((data) => (
           <Latest
             key={data.id}
+            index={data.id}
             title={data.title}
             img={data.img}
             pera={data.Description.slice(0, 200)}

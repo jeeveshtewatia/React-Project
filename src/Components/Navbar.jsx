@@ -22,25 +22,25 @@ const Navbar = () => {
           Bollywood
         </Link>
         <Link
-          to="/Technology"
+          to="/category/Technology"
           className="navlink animate__animated animate__slideInDown"
         >
           Technology
         </Link>
         <Link
-          to="/Hollywood"
+          to="/category/Hollywood"
           className="navlink animate__animated animate__slideInDown"
         >
           Hollywood
         </Link>
         <Link
-          to="/Fitness"
+          to="/category/Fitness"
           className="navlink animate__animated animate__slideInDown"
         >
           Fitness
         </Link>
         <Link
-          to="/Food"
+          to="/category/Food"
           className="navlink animate__animated animate__slideInDown"
         >
           Food

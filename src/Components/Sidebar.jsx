@@ -15,8 +15,8 @@ const Sidebar = (props) => {
         index: props.index,
         category: props.category,
       }}
-      // to={`/category/${props.category}/${props.index}`}
-      to="/Blog"
+      to={`/category/${props.category}/${props.index}`}
+      // to="/Blog"
     >
       <div className="sideflex" key={props.index}>
         <div>

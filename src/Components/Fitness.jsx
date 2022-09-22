@@ -28,6 +28,7 @@ const Fitness = () => {
             {Data.filter((data) => data.category === "Fitness").map((data) => (
               <Sidebar
                 key={data.id}
+                index={data.id}
                 title={data.title}
                 img={data.img}
                 category={data.category}
