@@ -13,10 +13,18 @@ img {
 }
 
 .main {
+
     display: flex;
     justify-content: center;
     font-size: 32px;
+    /* background-color: aqua; */
 }
+
+.siren:hover {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 
 .main p {
     transform: rotate(270deg);
@@ -44,9 +52,11 @@ img {
 
 .navlink:hover {
     color: red;
+    /* animation: navlink 1s linear; */
     border-bottom: solid 4px #019fb6;
+
     /* transform: scaleX(0); */
-    transition: transform 250ms ease-in-out;
+    /* transition: transform 1s ease-in-out; */
 }
 
 .title {
@@ -144,6 +154,7 @@ h5 {
     height: auto;
 }
 
+
 .articleimg {
 
     width: 90%;
@@ -173,6 +184,13 @@ h5 {
     color: black;
     padding-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.artflex:hover {
+    /* opacity: 0.5; */
+    background-color: rgba(255, 235, 204, 0.4);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .artflex div:last-child {
